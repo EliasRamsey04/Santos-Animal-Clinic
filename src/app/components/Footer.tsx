@@ -62,14 +62,12 @@ export function Footer() {
           {/* CTA */}
           <div>
             <h3 className="text-white font-bold text-lg mb-6">Book an Appointment</h3>
-            <p className="text-slate-400 mb-6">Skip the wait and schedule your visit via WhatsApp today.</p>
+            <p className="text-slate-400 mb-6">Skip the wait and schedule your visit via text message today.</p>
             <a 
-              href="https://wa.me/17866771838" 
-              target="_blank" 
-              rel="noreferrer"
+              href="sms:+17866771838" 
               className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-xl font-medium transition-all flex items-center justify-center gap-2 shadow-md w-full"
             >
-              Schedule on WhatsApp
+              Schedule via Text
             </a>
           </div>
 

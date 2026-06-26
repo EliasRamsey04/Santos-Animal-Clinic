@@ -32,13 +32,11 @@ export function Hero() {
           
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="https://wa.me/17866771838"
-              target="_blank"
-              rel="noreferrer"
+              href="sms:+17866771838"
               className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-full font-semibold transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
             >
               <MessageCircle className="w-5 h-5" />
-              Schedule on WhatsApp
+              Schedule via Text
             </a>
             <a
               href="tel:+17866771838"

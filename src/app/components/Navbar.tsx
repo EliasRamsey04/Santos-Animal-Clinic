@@ -56,12 +56,10 @@ export function Navbar() {
             ))}
           </ul>
           <a
-            href="https://wa.me/17866771838"
-            target="_blank"
-            rel="noreferrer"
+            href="sms:+17866771838"
             className="bg-emerald-500 hover:bg-emerald-600 text-white px-5 py-2.5 rounded-full font-medium transition-all shadow-sm hover:shadow-md flex items-center gap-2"
           >
-            WhatsApp
+            Text Us
           </a>
         </nav>
 
@@ -97,12 +95,10 @@ export function Navbar() {
               ))}
               <li className="pt-2">
                 <a
-                  href="https://wa.me/17866771838"
-                  target="_blank"
-                  rel="noreferrer"
+                  href="sms:+17866771838"
                   className="bg-emerald-500 text-white px-5 py-3 rounded-xl font-medium flex items-center justify-center gap-2 w-full shadow-sm"
                 >
-                  Schedule on WhatsApp
+                  Schedule via Text
                 </a>
               </li>
             </ul>

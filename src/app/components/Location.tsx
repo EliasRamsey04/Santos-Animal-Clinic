@@ -73,13 +73,11 @@ export function Location() {
                 Open in Google Maps
               </a>
               <a 
-                href="https://wa.me/17866771838" 
-                target="_blank" 
-                rel="noreferrer"
+                href="sms:+17866771838" 
                 className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-xl font-semibold transition-all flex items-center justify-center gap-2 shadow-md"
               >
                 <MessageCircle className="w-5 h-5" />
-                WhatsApp
+                Text Us
               </a>
               <a 
                 href="tel:+17866771838" 
